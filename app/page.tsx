@@ -108,13 +108,13 @@ export default function Home() {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight leading-tight mb-6">
-            Make Every Photo
-            <br />
-            Ready to Sell
+AI Product Photos
+<br />
+Ready to Sell
           </h1>
 
           <p className="text-gray-400 text-lg md:text-xl max-w-3xl mx-auto mb-8">
-  Transform ordinary product photos into professional, marketplace-ready images in seconds.
+  Create clean, premium ecommerce product images instantly with AI.
 </p>
 
           <div className="flex flex-wrap justify-center gap-3 mb-10">
