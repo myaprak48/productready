@@ -133,7 +133,7 @@ Ready to Sell
           </div>
 
           <label className="inline-flex items-center justify-center bg-white text-black px-8 py-4 rounded-2xl font-semibold cursor-pointer hover:bg-gray-200 transition">
-            Upload Image
+            
             <input
               type="file"
               accept="image/*"
@@ -145,8 +145,8 @@ Ready to Sell
       </section>
 
       <section className="px-6 pb-20">
-        <div className="max-w-5xl mx-auto rounded-[2rem] border border-white/10 bg-zinc-950 p-4 md:p-8 shadow-2xl">
-          <label className="w-full h-72 md:h-96 border border-dashed border-gray-700 rounded-[1.5rem] flex items-center justify-center bg-zinc-900 cursor-pointer overflow-hidden">
+        <div className="max-w-4xl mx-auto rounded-[2rem] border border-white/10 bg-zinc-950 p-4 md:p-8 shadow-2xl">
+          <label className="w-full h-56 md:h-72 border border-dashed border-gray-700 rounded-[1.5rem] flex items-center justify-center bg-zinc-900 cursor-pointer overflow-hidden">
             {preview ? (
               <img
                 src={preview}
