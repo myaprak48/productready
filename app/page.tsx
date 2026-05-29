@@ -412,6 +412,9 @@ Product Images in Seconds
         <li>✓ Standard Quality</li>
         <li>✓ White Background</li>
       </ul>
+      <button className="mt-8 w-full rounded-2xl bg-white text-black py-3 font-semibold">
+  Start Free
+</button>
     </div>
 
  <div className="rounded-3xl border border-white/20 bg-zinc-900 p-8">
@@ -438,13 +441,16 @@ Product Images in Seconds
 
     <div className="rounded-3xl border border-white/10 bg-zinc-950 p-8">
       <h3 className="text-2xl font-bold mb-4">Business</h3>
-      <p className="text-5xl font-bold mb-6">$29</p>
+    <p className="text-5xl font-bold mb-6">$29<span className="text-lg text-gray-400">/mo</span></p>
 
       <ul className="space-y-3 text-gray-300">
         <li>✓ Team Access</li>
         <li>✓ Bulk Processing</li>
         <li>✓ API Access (Soon)</li>
       </ul>
+      <button className="mt-8 w-full rounded-2xl border border-white/20 py-3 font-semibold">
+  Contact Sales
+</button>
     </div>
 
   </div>
