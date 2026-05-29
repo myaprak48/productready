@@ -133,7 +133,7 @@ Ready to Sell
           </div>
 
           <label className="inline-flex items-center justify-center bg-white text-black px-8 py-4 rounded-2xl font-semibold cursor-pointer hover:bg-gray-200 transition">
-            
+            Start Free
             <input
               type="file"
               accept="image/*"
