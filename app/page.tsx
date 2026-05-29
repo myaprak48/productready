@@ -277,11 +277,11 @@ Product Images in Seconds
       <section id="solutions" className="px-6 pb-24 max-w-7xl mx-auto">
         <div className="text-center mb-12">
   <h2 className="text-4xl font-bold mb-4">
-    Solutions for Every Seller
-  </h2>
+  Built for Modern Ecommerce Sellers
+</h2>
 
   <p className="text-gray-400 max-w-3xl mx-auto">
-    ProductReady helps ecommerce sellers, marketplace vendors and future real estate professionals create clean, ready-to-sell visuals faster.
+  Perfect for Amazon, Etsy, Shopify, eBay and marketplace sellers who need professional product images fast.
   </p>
 </div>
 <div className="grid md:grid-cols-2 gap-6 mb-16">
@@ -390,7 +390,55 @@ Product Images in Seconds
 </section>
 
       
+<section id="pricing" className="px-6 pb-24 max-w-7xl mx-auto">
+  <div className="text-center mb-12">
+    <h2 className="text-4xl font-bold mb-4">
+      Simple Pricing
+    </h2>
 
+    <p className="text-gray-400 max-w-2xl mx-auto">
+      Start free and upgrade when your business grows.
+    </p>
+  </div>
+
+  <div className="grid md:grid-cols-3 gap-6">
+
+    <div className="rounded-3xl border border-white/10 bg-zinc-950 p-8">
+      <h3 className="text-2xl font-bold mb-4">Free</h3>
+      <p className="text-5xl font-bold mb-6">$0</p>
+
+      <ul className="space-y-3 text-gray-300">
+        <li>✓ 5 Images</li>
+        <li>✓ Standard Quality</li>
+        <li>✓ White Background</li>
+      </ul>
+    </div>
+
+    <div className="rounded-3xl border border-white/20 bg-zinc-900 p-8">
+      <h3 className="text-2xl font-bold mb-4">Pro</h3>
+      <p className="text-5xl font-bold mb-6">$9</p>
+
+      <ul className="space-y-3 text-gray-300">
+        <li>✓ Unlimited Images</li>
+        <li>✓ HD Export</li>
+        <li>✓ Priority Processing</li>
+        <li>✓ Commercial Use</li>
+      </ul>
+    </div>
+
+    <div className="rounded-3xl border border-white/10 bg-zinc-950 p-8">
+      <h3 className="text-2xl font-bold mb-4">Business</h3>
+      <p className="text-5xl font-bold mb-6">$29</p>
+
+      <ul className="space-y-3 text-gray-300">
+        <li>✓ Team Access</li>
+        <li>✓ Bulk Processing</li>
+        <li>✓ API Access (Soon)</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
       <footer className="border-t border-white/10 px-6 py-10">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
