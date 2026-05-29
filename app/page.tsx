@@ -413,11 +413,15 @@ Product Images in Seconds
         <li>✓ White Background</li>
       </ul>
     </div>
-<div className="inline-flex mb-4 rounded-full bg-white text-black px-3 py-1 text-xs font-semibold">
-  Most Popular
-</div>
-    <div className="rounded-3xl border border-white/20 bg-zinc-900 p-8">
-      <h3 className="text-2xl font-bold mb-4">Pro</h3>
+
+ <div className="rounded-3xl border border-white/20 bg-zinc-900 p-8">
+
+  <div className="inline-flex mb-4 rounded-full bg-white text-black px-3 py-1 text-xs font-semibold">
+    Most Popular
+  </div>
+
+  <h3 className="text-2xl font-bold mb-4">Pro</h3>
+      
       <p className="text-5xl font-bold mb-2">$9<span className="text-lg text-gray-400">/mo</span></p>
 <p className="text-sm text-gray-400 mb-6">Most popular for sellers</p>
 
