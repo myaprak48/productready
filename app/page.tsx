@@ -521,6 +521,51 @@ Product Images in Seconds
   </div>
 
 </section>
+<section className="px-6 py-24 max-w-4xl mx-auto">
+
+  <div className="text-center mb-12">
+    <h2 className="text-4xl font-bold mb-4">
+      Frequently Asked Questions
+    </h2>
+
+    <p className="text-gray-400">
+      Everything you need to know about ProductReady.
+    </p>
+  </div>
+
+  <div className="space-y-6">
+
+    <div className="rounded-2xl border border-white/10 bg-zinc-950 p-6">
+      <h3 className="font-semibold mb-2">Is ProductReady free to use?</h3>
+      <p className="text-gray-400">
+        Yes. You can process up to 5 images for free.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-zinc-950 p-6">
+      <h3 className="font-semibold mb-2">What image formats are supported?</h3>
+      <p className="text-gray-400">
+        PNG, JPG and WEBP.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-zinc-950 p-6">
+      <h3 className="font-semibold mb-2">Can I use images commercially?</h3>
+      <p className="text-gray-400">
+        Yes. Pro and Business plans include commercial usage rights.
+      </p>
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-zinc-950 p-6">
+      <h3 className="font-semibold mb-2">Do you support bulk processing?</h3>
+      <p className="text-gray-400">
+        Bulk processing is available on Business plans.
+      </p>
+    </div>
+
+  </div>
+
+</section>
       <footer className="border-t border-white/10 px-6 py-10">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
