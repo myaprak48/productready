@@ -488,6 +488,39 @@ Product Images in Seconds
   </div>
 
 </section>
+<section className="px-6 py-24 max-w-7xl mx-auto">
+
+  <div className="text-center mb-12">
+    <h2 className="text-4xl font-bold mb-4">
+      Trusted by Marketplace Sellers
+    </h2>
+
+    <p className="text-gray-400">
+      Built for sellers on the world's largest ecommerce platforms.
+    </p>
+  </div>
+
+  <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+
+    <div className="rounded-2xl border border-white/10 bg-zinc-950 p-6 text-center">
+      Amazon
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-zinc-950 p-6 text-center">
+      Etsy
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-zinc-950 p-6 text-center">
+      Shopify
+    </div>
+
+    <div className="rounded-2xl border border-white/10 bg-zinc-950 p-6 text-center">
+      eBay
+    </div>
+
+  </div>
+
+</section>
       <footer className="border-t border-white/10 px-6 py-10">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
