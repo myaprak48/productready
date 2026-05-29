@@ -102,7 +102,8 @@ export default function Home() {
 </div>
         </nav>
 
-        <div className="text-center max-w-6xl mx-auto">
+        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+          <div className="text-center lg:text-left">
           <div className="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-gray-300 mb-8">
             Built for ecommerce sellers and marketplaces
           </div>
@@ -130,7 +131,7 @@ Ready to Sell
             <span className="px-4 py-2 rounded-full bg-zinc-900 border border-white/10 text-sm">
               ✓ AI Powered
             </span>
-          </div>
+        
 
           <label className="inline-flex items-center justify-center bg-white text-black px-8 py-4 rounded-2xl font-semibold cursor-pointer hover:bg-gray-200 transition">
             Start Free
