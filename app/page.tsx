@@ -108,13 +108,15 @@ export default function Home() {
           </div>
 
           <h1 className="text-6xl md:text-8xl font-bold tracking-tight leading-[0.95]">
-AI Product Photos
+Create Marketplace-Ready
 <br />
-Ready to Sell
+Product Images in Seconds
           </h1>
 
           <p className="text-gray-400 text-lg md:text-xl max-w-3xl mx-auto mb-8">
-  Create clean, premium ecommerce product images instantly with AI.
+  Remove backgrounds, add clean white backgrounds, and create professional
+  <br />
+  ecommerce images for Amazon, Etsy, Shopify and more.
 </p>
 
           <div className="flex flex-wrap justify-center gap-3 mb-10">
