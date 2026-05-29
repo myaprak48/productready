@@ -107,7 +107,7 @@ export default function Home() {
             Built for ecommerce sellers and marketplaces
           </div>
 
-          <h1 className="text-5xl md:text-7xl font-bold tracking-tight leading-tight mb-6">
+          <h1 className="text-6xl md:text-8xl font-bold tracking-tight leading-[0.95]">
 AI Product Photos
 <br />
 Ready to Sell
