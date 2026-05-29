@@ -84,21 +84,25 @@ export default function Home() {
           <div className="text-2xl font-bold tracking-tight">ProductReady</div>
 
           <div className="hidden md:flex gap-8 text-sm text-gray-400">
-  <a href="#solutions" className="hover:text-white transition">
-    Solutions
-  </a>
+ <a href="#examples" className="hover:text-white transition">
+  Examples
+</a>
 
-  <a href="#ecommerce" className="hover:text-white transition">
-    Ecommerce
-  </a>
+<a href="#features" className="hover:text-white transition">
+  Features
+</a>
 
-  <a href="#real-estate" className="hover:text-white transition">
-    Real Estate
-  </a>
+<a href="#pricing" className="hover:text-white transition">
+  Pricing
+</a>
 
-  <a href="#contact" className="hover:text-white transition">
-    Contact
-  </a>
+<a href="#real-estate" className="hover:text-white transition">
+  Real Estate
+</a>
+
+<a href="#contact" className="hover:text-white transition">
+  Contact
+</a>
 </div>
         </nav>
 
@@ -225,7 +229,7 @@ Product Images in Seconds
         </div>
       </section>
 
-      <section id="solutions" className="px-6 pb-24 max-w-7xl mx-auto">
+      <section id="examples" className="px-6 pb-24 max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4">
   See ProductReady in Action
@@ -340,7 +344,7 @@ Product Images in Seconds
     </p>
   </div>
 
-  <div className="grid md:grid-cols-3 gap-6">
+  <div id="features" className="grid md:grid-cols-3 gap-6">
     <div className="rounded-3xl border border-white/10 bg-zinc-950 p-8">
       <h3 className="text-xl font-semibold mb-3">⚡ Save Time</h3>
       <p className="text-gray-400">
