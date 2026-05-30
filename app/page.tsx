@@ -57,9 +57,7 @@ export default function Home() {
           canvas.height = originalImg.height;
 
           if (ctx) {
-            ctx.fillStyle = "white";
-            ctx.fillRect(0, 0, canvas.width, canvas.height);
-
+          
             ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
 
 
@@ -76,7 +74,33 @@ export default function Home() {
       setLoading(false);
     }
   };
+const downloadWhiteBackground = () => {
+  if (!result) return;
 
+  const img = new Image();
+
+  img.onload = () => {
+    const canvas = document.createElement("canvas");
+    const ctx = canvas.getContext("2d");
+
+    canvas.width = img.width;
+    canvas.height = img.height;
+
+    if (ctx) {
+      ctx.fillStyle = "white";
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      ctx.drawImage(img, 0, 0);
+
+      const link = document.createElement("a");
+      link.href = canvas.toDataURL("image/png");
+      link.download = "productready-white.png";
+      link.click();
+    }
+  };
+
+  img.src = result;
+};
   return (
     <main className="min-h-screen bg-black text-white">
       <section className="px-6 py-8 max-w-7xl mx-auto">
@@ -96,10 +120,6 @@ export default function Home() {
   Pricing
 </a>
 
-<a href="#real-estate" className="hover:text-white transition">
-  Real Estate
-</a>
-
 <a href="#contact" className="hover:text-white transition">
   Contact
 </a>
@@ -112,15 +132,13 @@ export default function Home() {
           </div>
 
           <h1 className="text-6xl md:text-8xl font-bold tracking-tight leading-[0.95]">
-Create Marketplace-Ready
+Sell Faster With Better
 <br />
-Product Images in Seconds
+Product Images
           </h1>
 
           <p className="text-gray-400 text-lg md:text-xl max-w-3xl mx-auto mb-8">
-  Remove backgrounds, add clean white backgrounds, and create professional
-  <br />
-  ecommerce images for Amazon, Etsy, Shopify and more.
+Turn ordinary product photos into clean, professional images ready for Amazon, Etsy and Shopify.
 </p>
 
           <div className="flex flex-wrap justify-center gap-3 mb-10">
@@ -138,8 +156,14 @@ Product Images in Seconds
             </span>
           </div>
 
-          <label className="inline-flex items-center justify-center bg-white text-black px-8 py-4 rounded-2xl font-semibold cursor-pointer hover:bg-gray-200 transition">
-            Start Free
+<label
+  onClick={() =>
+    document.getElementById("upload")?.scrollIntoView({
+      behavior: "smooth",
+    })
+  }
+  className="inline-flex items-center justify-center bg-white text-black px-8 py-4 rounded-2xl font-semibold cursor-pointer hover:bg-gray-200 transition"
+>            Start Free
             <input
               type="file"
               accept="image/*"
@@ -151,8 +175,10 @@ Product Images in Seconds
       </section>
 
       <section className="px-6 pb-20">
-        <div className="max-w-4xl mx-auto rounded-[2rem] border border-white/10 bg-zinc-950 p-4 md:p-8 shadow-2xl">
-          <label className="w-full h-56 md:h-72 border border-dashed border-gray-700 rounded-[1.5rem] flex items-center justify-center bg-zinc-900 cursor-pointer overflow-hidden">
+<div
+  id="upload"
+  className="max-w-4xl mx-auto rounded-[2rem] border border-white/10 bg-zinc-950 p-4 md:p-8 shadow-2xl"
+>          <label className="w-full h-56 md:h-72 border border-dashed border-gray-700 rounded-[1.5rem] flex items-center justify-center bg-zinc-900 cursor-pointer overflow-hidden">
             {preview ? (
               <img
                 src={preview}
@@ -207,7 +233,20 @@ Product Images in Seconds
 
                 <div>
                   <p className="text-center mb-3 text-gray-400">After</p>
-                  <div className="bg-white rounded-3xl overflow-hidden">
+                  <div
+  className="rounded-3xl overflow-hidden"
+  style={{
+  backgroundImage: `
+  linear-gradient(45deg, #f3f4f6 25%, transparent 25%),
+  linear-gradient(-45deg, #f3f4f6 25%, transparent 25%),
+  linear-gradient(45deg, transparent 75%, #f3f4f6 75%),
+  linear-gradient(-45deg, transparent 75%, #f3f4f6 75%)
+`,
+backgroundColor: "#ffffff",
+    backgroundSize: "20px 20px",
+    backgroundPosition: "0 0, 0 10px, 10px -10px, -10px 0px",
+  }}
+>
                     <img
                       src={result}
                       alt="Result"
@@ -217,13 +256,22 @@ Product Images in Seconds
                 </div>
               </div>
 
-              <a
-                href={result}
-                download="productready.png"
-                className="block mt-8 text-center bg-white text-black px-6 py-4 rounded-2xl font-semibold hover:bg-gray-200 transition"
-              >
-                Download Image
-              </a>
+              <div className="grid md:grid-cols-2 gap-4 mt-8">
+  <a
+    href={result}
+    download="productready-transparent.png"
+    className="block text-center bg-white text-black px-6 py-4 rounded-2xl font-semibold"
+  >
+    Download Transparent PNG
+  </a>
+
+  <button
+  onClick={downloadWhiteBackground}
+  className="block text-center border border-white/20 px-6 py-4 rounded-2xl font-semibold"
+>
+  Download White Background
+</button>
+</div>
             </div>
           )}
         </div>
@@ -407,11 +455,11 @@ Product Images in Seconds
       <h3 className="text-2xl font-bold mb-4">Free</h3>
       <p className="text-5xl font-bold mb-6">$0</p>
 
-      <ul className="space-y-3 text-gray-300">
-        <li>✓ 5 Images</li>
-        <li>✓ Standard Quality</li>
-        <li>✓ White Background</li>
-      </ul>
+     <ul className="space-y-3 text-gray-300">
+  <li>✓ 5 Images</li>
+  <li>✓ Transparent PNG</li>
+  <li>✓ White Background</li>
+</ul>
       <button className="mt-8 w-full rounded-2xl bg-white text-black py-3 font-semibold">
   Start Free
 </button>
@@ -455,39 +503,7 @@ Product Images in Seconds
 
   </div>
 </section>
-<section className="px-6 py-24 max-w-7xl mx-auto">
-
-  <div className="text-center mb-12">
-    <h2 className="text-4xl font-bold mb-4">
-      Trusted by Marketplace Sellers
-    </h2>
-
-    <p className="text-gray-400">
-      Built for sellers on the world's largest ecommerce platforms.
-    </p>
-  </div>
-
-  <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-
-    <div className="rounded-2xl border border-white/10 bg-zinc-950 p-6">
-      Amazon
-    </div>
-
-    <div className="rounded-2xl border border-white/10 bg-zinc-950 p-6">
-      Etsy
-    </div>
-
-    <div className="rounded-2xl border border-white/10 bg-zinc-950 p-6">
-      Shopify
-    </div>
-
-    <div className="rounded-2xl border border-white/10 bg-zinc-950 p-6">
-      eBay
-    </div>
-
-  </div>
-
-</section>
+npm run dev
 <section className="px-6 py-24 max-w-7xl mx-auto">
 
   <div className="text-center mb-12">
