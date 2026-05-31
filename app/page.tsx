@@ -503,7 +503,6 @@ backgroundColor: "#ffffff",
 
   </div>
 </section>
-npm run dev
 <section className="px-6 py-24 max-w-7xl mx-auto">
 
   <div className="text-center mb-12">
