@@ -367,7 +367,7 @@ backgroundColor: "#ffffff",
               Export a ready-to-use image for stores, marketplaces and ads.
             </p>
           </div>
-        </div>
+
       </section>
 
     <section className="px-6 pb-24 max-w-7xl mx-auto">
