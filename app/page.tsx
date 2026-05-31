@@ -482,9 +482,12 @@ backgroundColor: "#ffffff",
         <li>✓ Priority Processing</li>
         <li>✓ Commercial Use</li>
       </ul>
-      <button className="mt-8 w-full rounded-2xl bg-white text-black py-3 font-semibold">
+      <a
+  href="mailto:productreadyapp@gmail.com?subject=ProductReady Pro Plan"
+  className="block mt-8 w-full text-center rounded-2xl bg-white text-black py-3 font-semibold hover:bg-gray-200 transition"
+>
   Get Pro
-</button>
+</a>
     </div>
 
     <div className="rounded-3xl border border-white/10 bg-zinc-950 p-8">
@@ -496,9 +499,12 @@ backgroundColor: "#ffffff",
         <li>✓ Bulk Processing</li>
         <li>✓ API Access (Soon)</li>
       </ul>
-      <button className="mt-8 w-full rounded-2xl border border-white/20 py-3 font-semibold">
+      <a
+  href="mailto:productreadyapp@gmail.com?subject=ProductReady Business Plan"
+  className="block mt-8 w-full text-center rounded-2xl border border-white/20 py-3 font-semibold hover:bg-white/10 transition"
+>
   Contact Sales
-</button>
+</a>
     </div>
 
   </div>
