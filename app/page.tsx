@@ -343,7 +343,7 @@ backgroundColor: "#ffffff",
               need clean product images fast.
             </p>
           </div>
-
+</div>
 
         <div className="grid md:grid-cols-2 gap-6">
           <div className="rounded-3xl border border-white/10 bg-zinc-950 p-6">
@@ -367,9 +367,7 @@ backgroundColor: "#ffffff",
               Export a ready-to-use image for stores, marketplaces and ads.
             </p>
           </div>
-
-      </section>
-
+</section>
     <section className="px-6 pb-24 max-w-7xl mx-auto">
   <div className="text-center mb-12">
     <h2 className="text-5xl font-bold mb-4">
