@@ -344,17 +344,6 @@ backgroundColor: "#ffffff",
             </p>
           </div>
 
-          <div className="rounded-3xl border border-white/10 bg-zinc-950 p-8">
-            <p className="text-sm text-gray-500 mb-3">For Real Estate</p>
-            <h2 className="text-3xl font-bold mb-4">
-              Real estate photo enhancement is coming next.
-            </h2>
-            <p className="text-gray-400">
-              Sky replacement, brightness improvement, object cleanup and
-              listing-ready property images.
-            </p>
-          </div>
-        </div>
 
         <div className="grid md:grid-cols-2 gap-6">
           <div className="rounded-3xl border border-white/10 bg-zinc-950 p-6">
