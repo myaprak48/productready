@@ -594,7 +594,12 @@ npm run dev
           <div className="flex gap-6 text-sm text-gray-500">
             <span>Privacy</span>
             <span>Terms</span>
-            <span>Contact</span>
+            <a
+  href="mailto:productreadyapp@gmail.com"
+  className="hover:text-white transition"
+>
+  Contact
+</a>
           </div>
 
           <p className="text-gray-600 text-sm"> © 2026 ProductReady. All rights reserved.</p>
