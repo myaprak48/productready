@@ -597,7 +597,7 @@ backgroundColor: "#ffffff",
   href="mailto:productreadyapp@gmail.com"
   className="hover:text-white transition"
 >
-  Contact
+ productreadyapp@gmail.com
 </a>
           </div>
 
