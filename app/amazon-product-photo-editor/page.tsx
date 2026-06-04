@@ -1,7 +1,7 @@
 export const metadata = {
   title: "Amazon Product Photo Editor | ProductReady",
   description:
-    "Edit Amazon product photos with AI. Remove backgrounds, create white backgrounds and prepare images for Amazon listings.",
+    "Create Amazon-ready product photos with AI. Remove backgrounds, add clean white backgrounds, and prepare professional product images for Amazon listings.",
 };
 
 export default function Page() {
@@ -12,29 +12,137 @@ export default function Page() {
       </h1>
 
       <p className="text-xl text-gray-400 mb-8">
-        Create Amazon-ready product photos in seconds. Remove backgrounds,
-        add clean white backgrounds and improve product presentation with AI.
+        Create clean, professional Amazon product photos in seconds.
+        ProductReady helps sellers remove backgrounds, create white background
+        images, and prepare marketplace-ready product photos with AI.
       </p>
 
       <h2 className="text-3xl font-bold mt-12 mb-4">
-        Why Amazon Sellers Need Better Photos
+        Why Amazon Product Photos Matter
       </h2>
+
+      <p className="text-gray-400 mb-4">
+        Product photos are one of the most important parts of an Amazon listing.
+        Before customers read your title, bullet points, or description, they see
+        your main image. A clean product photo can help your listing look more
+        trustworthy and professional.
+      </p>
 
       <p className="text-gray-400">
-        Professional product images help increase click-through rates,
-        improve conversions and build customer trust.
+        Poor lighting, messy backgrounds, or distracting objects can make even a
+        good product look less valuable. ProductReady helps you turn ordinary
+        product images into cleaner ecommerce visuals.
       </p>
 
       <h2 className="text-3xl font-bold mt-12 mb-4">
-        Features
+        Create White Background Images for Amazon
       </h2>
 
-      <ul className="list-disc pl-6 text-gray-400">
-        <li>Background removal</li>
-        <li>White background generation</li>
-        <li>Marketplace-ready export</li>
-        <li>Fast AI processing</li>
+      <p className="text-gray-400 mb-4">
+        Many Amazon sellers need clean white background images for their product
+        listings. ProductReady makes this process simple: upload your image,
+        remove the background, and download a clean white background version.
+      </p>
+
+      <p className="text-gray-400">
+        This is especially useful for sellers who take product photos at home,
+        in an office, or with a phone camera and want a cleaner marketplace-ready
+        result.
+      </p>
+
+      <h2 className="text-3xl font-bold mt-12 mb-4">
+        What ProductReady Helps You Do
+      </h2>
+
+      <ul className="list-disc pl-6 text-gray-400 space-y-2">
+        <li>Remove distracting image backgrounds</li>
+        <li>Create clean white background product images</li>
+        <li>Download transparent PNG product photos</li>
+        <li>Prepare ecommerce images for Amazon listings</li>
+        <li>Improve product presentation without complex editing software</li>
       </ul>
+
+      <h2 className="text-3xl font-bold mt-12 mb-4">
+        Built for Amazon Sellers and Ecommerce Brands
+      </h2>
+
+      <p className="text-gray-400 mb-4">
+        ProductReady is designed for ecommerce sellers who need fast,
+        professional-looking product images. Whether you sell electronics,
+        accessories, beauty products, home goods, or handmade items, clean
+        product photography can make your listing look more polished.
+      </p>
+
+      <p className="text-gray-400">
+        Instead of opening complicated design software, you can use ProductReady
+        to quickly create background-free and white background product images.
+      </p>
+
+      <h2 className="text-3xl font-bold mt-12 mb-4">
+        How It Works
+      </h2>
+
+      <ol className="list-decimal pl-6 text-gray-400 space-y-2">
+        <li>Upload your product photo</li>
+        <li>Let AI remove the background</li>
+        <li>Choose transparent PNG or white background output</li>
+        <li>Download your product image</li>
+        <li>Use it in your Amazon listing or ecommerce store</li>
+      </ol>
+
+      <h2 className="text-3xl font-bold mt-12 mb-4">
+        Frequently Asked Questions
+      </h2>
+
+      <h3 className="text-xl font-semibold mt-8 mb-2">
+        Can I use ProductReady for Amazon product photos?
+      </h3>
+      <p className="text-gray-400">
+        Yes. ProductReady is built to help ecommerce sellers create cleaner
+        product photos for Amazon and other marketplaces.
+      </p>
+
+      <h3 className="text-xl font-semibold mt-8 mb-2">
+        Can I create a white background image?
+      </h3>
+      <p className="text-gray-400">
+        Yes. After removing the background, you can download a white background
+        version of your product image.
+      </p>
+
+      <h3 className="text-xl font-semibold mt-8 mb-2">
+        Can I download a transparent PNG?
+      </h3>
+      <p className="text-gray-400">
+        Yes. ProductReady supports transparent PNG downloads, which are useful
+        for ecommerce, design, and marketplace images.
+      </p>
+
+      <h3 className="text-xl font-semibold mt-8 mb-2">
+        Do I need design experience?
+      </h3>
+      <p className="text-gray-400">
+        No. ProductReady is designed to be simple. Upload an image, process it
+        with AI, and download the result.
+      </p>
+
+      <div className="mt-14 p-8 rounded-3xl border border-white/10 bg-white/5">
+        <h2 className="text-3xl font-bold mb-4">
+          Create Amazon-Ready Product Photos
+        </h2>
+
+        <p className="text-gray-400 mb-6">
+          Use ProductReady to remove backgrounds, create white background
+          images, and prepare cleaner product photos for your ecommerce store.
+        </p>
+
+        <a
+          href="/"
+          className="inline-block rounded-full bg-white text-black px-6 py-3 font-semibold"
+        >
+          Try ProductReady Free
+        </a>
+      </div>
     </main>
   );
 }
