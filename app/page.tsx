@@ -575,6 +575,59 @@ backgroundColor: "#ffffff",
   </div>
 
 </section>
+<section className="px-6 py-20 border-t border-white/10">
+  <div className="max-w-4xl mx-auto">
+    <h2 className="text-3xl font-bold mb-8">
+      Popular Tools
+    </h2>
+
+    <div className="grid md:grid-cols-2 gap-4">
+
+      <a
+        href="/remove-background-from-image"
+        className="text-blue-400 hover:text-blue-300"
+      >
+        Remove Background From Image
+      </a>
+
+      <a
+        href="/transparent-background-maker"
+        className="text-blue-400 hover:text-blue-300"
+      >
+        Transparent Background Maker
+      </a>
+
+      <a
+        href="/white-background-image"
+        className="text-blue-400 hover:text-blue-300"
+      >
+        White Background Image Maker
+      </a>
+
+      <a
+        href="/amazon-product-photo-editor"
+        className="text-blue-400 hover:text-blue-300"
+      >
+        Amazon Product Photo Editor
+      </a>
+
+      <a
+        href="/etsy-product-photo-editor"
+        className="text-blue-400 hover:text-blue-300"
+      >
+        Etsy Product Photo Editor
+      </a>
+
+      <a
+        href="/shopify-product-photo-editor"
+        className="text-blue-400 hover:text-blue-300"
+      >
+        Shopify Product Photo Editor
+      </a>
+
+    </div>
+  </div>
+</section>
       <footer className="border-t border-white/10 px-6 py-10">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
