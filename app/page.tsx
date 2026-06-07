@@ -7,6 +7,7 @@ export default function Home() {
   const [preview, setPreview] = useState<string | null>(null);
   const [result, setResult] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
+  const [sliderPosition, setSliderPosition] = useState(50);
 
   const handleImageUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -286,40 +287,48 @@ backgroundColor: "#ffffff",
   See how ProductReady transforms everyday product photos into professional marketplace-ready images.
 </p>
         </div>
+<div className="max-w-6xl mx-auto">
+  <div className="grid md:grid-cols-2 gap-8">
 
-        <div className="grid md:grid-cols-2 gap-6">
-          <div className="rounded-3xl border border-white/10 bg-zinc-950 p-6 ">
-            <div className="h-96 rounded-2xl bg-zinc-900 border border-white/10 flex items-center justify-center text-gray-500">
-              <img
-  src="/demo-before.jpg"
-  alt="Before"
-  className="w-full h-full object-cover rounded-2xl"
-/>
-            </div>
-            <div className="mt-4 text-center">
-  <p className="font-semibold text-white">Before</p>
-  <p className="text-gray-400 text-sm">
-    Original Product Photo
-  </p>
-</div>
-          </div>
+    <div className="rounded-3xl border border-white/10 bg-zinc-950 p-6">
+      <img
+        src="/demo-before.jpg"
+        alt="Before"
+        className="rounded-2xl w-full"
+      />
 
-          <div className="rounded-3xl border border-white/10 bg-zinc-950 p-6">
-            <div className="h-96 rounded-2xl bg-white flex items-center justify-center text-zinc-400">
-              <img
-  src="/demo-after.jpg"
-  alt="After"
-  className="w-full h-full object-cover rounded-2xl"
-/>
-            </div>
-            <div className="mt-4 text-center">
-  <p className="font-semibold text-white">After</p>
-  <p className="text-gray-400 text-sm">
-    Marketplace Ready Result
-  </p>
+      <div className="text-center mt-5">
+        <p className="text-2xl font-bold text-white">
+          Before
+        </p>
+
+        <p className="text-gray-400">
+          Original Product Photo
+        </p>
+      </div>
+    </div>
+
+    <div className="rounded-3xl border border-white/10 bg-zinc-950 p-6">
+      <img
+        src="/demo-after.jpg"
+        alt="After"
+        className="rounded-2xl w-full"
+      />
+
+      <div className="text-center mt-5">
+        <p className="text-2xl font-bold text-white">
+          After
+        </p>
+
+        <p className="text-gray-400">
+          Marketplace Ready Result
+        </p>
+      </div>
+    </div>
+
+  </div>
 </div>
-          </div>
-        </div>
+
       </section>
 
       <section id="solutions" className="px-6 pb-24 max-w-7xl mx-auto">
