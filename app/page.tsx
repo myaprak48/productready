@@ -587,52 +587,90 @@ backgroundColor: "#ffffff",
 <section className="px-6 py-20 border-t border-white/10">
   <div className="max-w-4xl mx-auto">
     <h2 className="text-3xl font-bold mb-8">
-      Popular Tools
+      Popular AI Tools For Ecommerce Sellers
     </h2>
-
-    <div className="grid md:grid-cols-2 gap-4">
-
-      <a
-        href="/remove-background-from-image"
-        className="text-blue-400 hover:text-blue-300"
-      >
-        Remove Background From Image
-      </a>
+<p className="text-gray-400 max-w-2xl mb-10">
+  AI-powered tools to remove backgrounds, create transparent PNGs, and optimize product photos for Amazon, Shopify and Etsy.
+</p>
+    <div className="grid md:grid-cols-2 gap-6">
 
       <a
-        href="/transparent-background-maker"
-        className="text-blue-400 hover:text-blue-300"
-      >
-        Transparent Background Maker
-      </a>
+  href="/remove-background-from-image"
+  className="block rounded-2xl border border-white/10 bg-zinc-900 p-6 hover:border-blue-500/50 hover:bg-zinc-800 transition-all duration-300"
+>
+  <h3 className="text-lg font-semibold mb-2">
+    Remove Background
+  </h3>
 
-      <a
-        href="/white-background-image"
-        className="text-blue-400 hover:text-blue-300"
-      >
-        White Background Image Maker
-      </a>
+  <p className="text-gray-400 text-sm">
+    Remove backgrounds instantly with AI.
+  </p>
+</a>
 
-      <a
-        href="/amazon-product-photo-editor"
-        className="text-blue-400 hover:text-blue-300"
-      >
-        Amazon Product Photo Editor
-      </a>
+    <a
+  href="/transparent-background-maker"
+  className="block rounded-2xl border border-white/10 bg-zinc-900 p-6 hover:border-blue-500 transition"
+>
+  <h3 className="text-lg font-semibold mb-2">
+    Transparent PNG
+  </h3>
 
-      <a
-        href="/etsy-product-photo-editor"
-        className="text-blue-400 hover:text-blue-300"
-      >
-        Etsy Product Photo Editor
-      </a>
+  <p className="text-gray-400 text-sm">
+    Create transparent product images.
+  </p>
+</a>
 
-      <a
-        href="/shopify-product-photo-editor"
-        className="text-blue-400 hover:text-blue-300"
-      >
-        Shopify Product Photo Editor
-      </a>
+<a
+  href="/white-background-image"
+  className="block rounded-2xl border border-white/10 bg-zinc-900 p-6 hover:border-blue-500 transition"
+>
+  <h3 className="text-lg font-semibold mb-2">
+    White Background
+  </h3>
+
+  <p className="text-gray-400 text-sm">
+    Generate marketplace-ready white backgrounds.
+  </p>
+</a>
+
+<a
+  href="/amazon-product-photo-editor"
+  className="block rounded-2xl border border-white/10 bg-zinc-900 p-6 hover:border-blue-500 transition"
+>
+  <h3 className="text-lg font-semibold mb-2">
+    Amazon Editor
+  </h3>
+
+  <p className="text-gray-400 text-sm">
+    Optimize images for Amazon listings.
+  </p>
+</a>
+
+<a
+  href="/etsy-product-photo-editor"
+  className="block rounded-2xl border border-white/10 bg-zinc-900 p-6 hover:border-blue-500 transition"
+>
+  <h3 className="text-lg font-semibold mb-2">
+    Etsy Editor
+  </h3>
+
+  <p className="text-gray-400 text-sm">
+    Create clean Etsy-ready product photos.
+  </p>
+</a>
+
+<a
+  href="/shopify-product-photo-editor"
+  className="block rounded-2xl border border-white/10 bg-zinc-900 p-6 hover:border-blue-500 transition"
+>
+  <h3 className="text-lg font-semibold mb-2">
+    Shopify Editor
+  </h3>
+
+  <p className="text-gray-400 text-sm">
+    Prepare product images for Shopify stores.
+  </p>
+</a>
 
     </div>
   </div>
