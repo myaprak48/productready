@@ -143,6 +143,55 @@ export default function Page() {
           Try ProductReady Free
         </a>
       </div>
+      <h2 className="text-3xl font-bold mt-12 mb-4">
+  Amazon Product Image Requirements
+</h2>
+
+<p className="text-gray-400 mb-4">
+  Amazon recommends high-quality product images that clearly show the item being sold. Clean backgrounds help customers focus on the product and create a more professional shopping experience.
+</p>
+
+<p className="text-gray-400">
+  Consistent product photography can improve trust and help create a stronger brand presence across your catalog.
+</p>
+<h2 className="text-3xl font-bold mt-12 mb-4">
+  Remove Backgrounds For Amazon Listings
+</h2>
+
+<p className="text-gray-400 mb-4">
+  ProductReady uses AI to automatically separate products from distracting backgrounds. Upload your image and create a cleaner Amazon-ready version in seconds.
+</p>
+
+<p className="text-gray-400">
+  No advanced photo editing skills are required. Simply upload, process, and download your image.
+</p>
+<h2 className="text-3xl font-bold mt-12 mb-4">
+  Frequently Asked Questions
+</h2>
+
+<h3 className="text-xl font-semibold mt-8 mb-2">
+  Can I create white background product photos?
+</h3>
+
+<p className="text-gray-400">
+  Yes. ProductReady can generate clean white background images suitable for ecommerce marketplaces.
+</p>
+
+<h3 className="text-xl font-semibold mt-8 mb-2">
+  Can I download transparent PNG files?
+</h3>
+
+<p className="text-gray-400">
+  Yes. Transparent PNG images can be exported after background removal.
+</p>
+
+<h3 className="text-xl font-semibold mt-8 mb-2">
+  Is ProductReady useful for Amazon sellers?
+</h3>
+
+<p className="text-gray-400">
+  Yes. ProductReady is designed to help sellers prepare cleaner and more professional product photos.
+</p>
     </main>
   );
 }

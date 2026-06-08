@@ -140,6 +140,57 @@ export default function Page() {
           Try ProductReady Free
         </a>
       </div>
+      <h2 className="text-3xl font-bold mt-12 mb-4">
+  Etsy Product Photography Tips
+</h2>
+
+<p className="text-gray-400 mb-4">
+  Etsy buyers often purchase handmade, vintage, and unique products. Clear and attractive product photos help build trust and improve conversion rates.
+</p>
+
+<p className="text-gray-400 mb-8">
+  Using clean backgrounds and consistent lighting can make Etsy listings look more professional and increase visibility.
+</p>
+
+<h2 className="text-3xl font-bold mt-12 mb-4">
+  Create Better Etsy Listing Images
+</h2>
+
+<p className="text-gray-400 mb-4">
+  ProductReady helps Etsy sellers remove distracting backgrounds and create clean product images suitable for handmade shops, jewelry listings, crafts, and home decor products.
+</p>
+
+<p className="text-gray-400 mb-8">
+  Upload your photo, process it with AI, and download a marketplace-ready version in seconds.
+</p>
+
+<h2 className="text-3xl font-bold mt-12 mb-4">
+  Frequently Asked Questions
+</h2>
+
+<h3 className="text-xl font-semibold mt-8 mb-2">
+  Can I use ProductReady for Etsy photos?
+</h3>
+
+<p className="text-gray-400">
+  Yes. ProductReady is designed to help Etsy sellers create cleaner and more professional product photos.
+</p>
+
+<h3 className="text-xl font-semibold mt-8 mb-2">
+  Can I remove backgrounds from handmade product photos?
+</h3>
+
+<p className="text-gray-400">
+  Yes. AI background removal works well for handmade items, jewelry, crafts, and decorative products.
+</p>
+
+<h3 className="text-xl font-semibold mt-8 mb-2">
+  Can I download transparent PNG files?
+</h3>
+
+<p className="text-gray-400">
+  Yes. Transparent PNG images can be downloaded after background removal.
+</p>
     </main>
   );
 }

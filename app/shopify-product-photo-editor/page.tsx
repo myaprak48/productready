@@ -138,6 +138,57 @@ export default function Page() {
           Try ProductReady Free
         </a>
       </div>
+      <h2 className="text-3xl font-bold mt-12 mb-4">
+  Shopify Product Image Best Practices
+</h2>
+
+<p className="text-gray-400 mb-4">
+  High-quality product photos are one of the most important factors for increasing conversions in Shopify stores. Clear images help customers understand products and build trust.
+</p>
+
+<p className="text-gray-400 mb-8">
+  Consistent product photography across your store creates a more professional shopping experience and strengthens your brand.
+</p>
+
+<h2 className="text-3xl font-bold mt-12 mb-4">
+  Improve Shopify Product Photos With AI
+</h2>
+
+<p className="text-gray-400 mb-4">
+  ProductReady helps Shopify store owners remove backgrounds, create clean white background images, and generate transparent PNG files for product pages.
+</p>
+
+<p className="text-gray-400 mb-8">
+  Upload your image, let AI process it, and download a cleaner version ready for your Shopify store.
+</p>
+
+<h2 className="text-3xl font-bold mt-12 mb-4">
+  Frequently Asked Questions
+</h2>
+
+<h3 className="text-xl font-semibold mt-8 mb-2">
+  Can I use ProductReady for Shopify product photos?
+</h3>
+
+<p className="text-gray-400">
+  Yes. ProductReady is designed to help Shopify merchants create professional product images quickly.
+</p>
+
+<h3 className="text-xl font-semibold mt-8 mb-2">
+  Can I create white background images for Shopify?
+</h3>
+
+<p className="text-gray-400">
+  Yes. You can generate clean white background product images after background removal.
+</p>
+
+<h3 className="text-xl font-semibold mt-8 mb-2">
+  Can I download transparent PNG files?
+</h3>
+
+<p className="text-gray-400">
+  Yes. Transparent PNG downloads are available after processing your image.
+</p>
     </main>
   );
 }
