@@ -688,6 +688,53 @@ backgroundColor: "#ffffff",
     Prepare product images for Shopify stores.
   </p>
 </a>
+<a
+  href="/ebay-product-photo-editor"
+  className="block rounded-2xl border border-white/10 bg-zinc-900 p-6 hover:border-white/20 transition"
+>
+  <h3 className="text-lg font-semibold mb-2">
+    eBay Editor
+  </h3>
+  <p className="text-gray-400 text-sm">
+    Optimize product photos for eBay listings.
+  </p>
+</a>
+
+<a
+  href="/ai-product-photo-enhancer"
+  className="block rounded-2xl border border-white/10 bg-zinc-900 p-6 hover:border-white/20 transition"
+>
+  <h3 className="text-lg font-semibold mb-2">
+    AI Product Enhancer
+  </h3>
+  <p className="text-gray-400 text-sm">
+    Improve product image quality with AI.
+  </p>
+</a>
+
+<a
+  href="/product-image-cleaner"
+  className="block rounded-2xl border border-white/10 bg-zinc-900 p-6 hover:border-white/20 transition"
+>
+  <h3 className="text-lg font-semibold mb-2">
+    Product Image Cleaner
+  </h3>
+  <p className="text-gray-400 text-sm">
+    Clean and optimize product images.
+  </p>
+</a>
+
+<a
+  href="/free-background-remover"
+  className="block rounded-2xl border border-white/10 bg-zinc-900 p-6 hover:border-white/20 transition"
+>
+  <h3 className="text-lg font-semibold mb-2">
+    Free Background Remover
+  </h3>
+  <p className="text-gray-400 text-sm">
+    Remove image backgrounds for free.
+  </p>
+</a>
 
     </div>
   </div>
