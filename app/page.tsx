@@ -147,10 +147,10 @@ Turn ordinary product photos into clean, professional images ready for Amazon, E
               ✓ Marketplace Ready
             </span>
             <span className="px-4 py-2 rounded-full bg-zinc-900 border border-white/10 text-sm">
-              ✓ White Background
+              ✓ Transparent PNG
             </span>
             <span className="px-4 py-2 rounded-full bg-zinc-900 border border-white/10 text-sm">
-              ✓ HD Export
+              ✓ White Background
             </span>
             <span className="px-4 py-2 rounded-full bg-zinc-900 border border-white/10 text-sm">
               ✓ AI Powered
@@ -189,11 +189,11 @@ Turn ordinary product photos into clean, professional images ready for Amazon, E
             ) : (
               <div className="text-center">
                 <p className="text-gray-300 text-lg font-medium">
-  Drag & drop your image here
+  Upload Product Photo
 </p>
 
 <p className="text-gray-500 text-sm mt-2">
-  or click to upload
+  Remove Background In Seconds
 </p>
 
 <p className="text-gray-600 text-xs mt-3">
@@ -219,6 +219,10 @@ Turn ordinary product photos into clean, professional images ready for Amazon, E
           </button>
 
           {result && preview && (
+            <>
+            <p className="text-green-400 text-center text-lg font-semibold mb-6">
+  ✅ Background Removed Successfully
+</p>
             <div className="mt-10">
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
@@ -274,6 +278,7 @@ backgroundColor: "#ffffff",
 </button>
 </div>
             </div>
+            </>
           )}
         </div>
       </section>
@@ -520,21 +525,33 @@ backgroundColor: "#ffffff",
 
   <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
 
-    <div className="rounded-2xl border border-white/10 bg-zinc-950 p-6 text-center">
-      Amazon
-    </div>
+    <a
+  href="/amazon-product-photo-editor"
+  className="rounded-2xl border border-white/10 bg-zinc-950 p-6 text-center hover:border-white/30 transition"
+>
+  Amazon
+</a>
 
-    <div className="rounded-2xl border border-white/10 bg-zinc-950 p-6 text-center">
-      Etsy
-    </div>
+    <a
+  href="/etsy-product-photo-editor"
+  className="rounded-2xl border border-white/10 bg-zinc-950 p-6 text-center hover:border-white/30 transition"
+>
+  Etsy
+</a>
 
-    <div className="rounded-2xl border border-white/10 bg-zinc-950 p-6 text-center">
-      Shopify
-    </div>
+    <a
+  href="/shopify-product-photo-editor"
+  className="rounded-2xl border border-white/10 bg-zinc-950 p-6 text-center hover:border-white/30 transition"
+>
+  Shopify
+</a>
 
-    <div className="rounded-2xl border border-white/10 bg-zinc-950 p-6 text-center">
-      eBay
-    </div>
+    <a
+  href="/free-background-remover"
+  className="rounded-2xl border border-white/10 bg-zinc-950 p-6 text-center hover:border-white/30 transition"
+>
+  eBay
+</a>
 
   </div>
 

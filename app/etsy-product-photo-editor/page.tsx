@@ -1,7 +1,7 @@
 export const metadata = {
   title: "Etsy Product Photo Editor | ProductReady",
   description:
-    "Create Etsy-ready product photos with AI. Remove backgrounds, create clean product images, and improve your Etsy listings.",
+    "Create professional Etsy product photos with AI. Remove backgrounds, create white background images, generate transparent PNG files, and improve Etsy listings.",
 };
 
 export default function Page() {
@@ -11,10 +11,11 @@ export default function Page() {
         Etsy Product Photo Editor
       </h1>
 
-      <p className="text-xl text-gray-400 mb-8">
+      <p className="text-xl text-gray-400 mb-12">
         Create cleaner, more professional Etsy product photos in seconds.
-        ProductReady helps sellers remove backgrounds, generate transparent PNGs,
-        and prepare polished images for Etsy listings.
+        ProductReady helps Etsy sellers remove backgrounds, create transparent
+        PNG images, and prepare product photos that stand out in search results
+        and product listings.
       </p>
 
       <h2 className="text-3xl font-bold mt-12 mb-4">
@@ -22,30 +23,29 @@ export default function Page() {
       </h2>
 
       <p className="text-gray-400 mb-4">
-        Etsy shoppers often make quick decisions based on product images.
-        Clean, high-quality photos can help your handmade, vintage, or digital
-        products look more trustworthy and attractive.
+        Product photos are often the first thing shoppers notice when browsing
+        Etsy. High-quality images help buyers understand your products and build
+        trust before they read the description.
       </p>
 
       <p className="text-gray-400">
-        A messy background can distract buyers from the product itself.
-        ProductReady helps you create cleaner visuals without complicated
-        editing software.
+        Clean and professional product photography can increase clicks, improve
+        conversion rates, and make your Etsy shop appear more established.
       </p>
 
       <h2 className="text-3xl font-bold mt-12 mb-4">
-        Improve Your Etsy Listing Images
+        Create Better Etsy Listing Images
       </h2>
 
       <p className="text-gray-400 mb-4">
-        Better product photos can make your Etsy shop feel more professional.
-        Whether you sell jewelry, accessories, home decor, art prints, clothing,
-        candles, stickers, or handmade goods, image quality matters.
+        Whether you sell handmade products, jewelry, candles, home decor,
+        clothing, art prints, digital products, or vintage items, better photos
+        can help your listings attract more attention.
       </p>
 
       <p className="text-gray-400">
-        ProductReady helps you quickly remove backgrounds and create product
-        images that are easier to use across Etsy, social media, and ecommerce
+        ProductReady removes distracting backgrounds and creates cleaner product
+        images that work well across Etsy, social media, and ecommerce
         platforms.
       </p>
 
@@ -54,26 +54,30 @@ export default function Page() {
       </h2>
 
       <ul className="list-disc pl-6 text-gray-400 space-y-2">
-        <li>Remove distracting product photo backgrounds</li>
-        <li>Create transparent PNG product images</li>
+        <li>Remove distracting image backgrounds</li>
+        <li>Create transparent PNG product photos</li>
         <li>Generate clean white background images</li>
         <li>Prepare product photos for Etsy listings</li>
-        <li>Create more consistent shop visuals</li>
+        <li>Create more professional shop visuals</li>
       </ul>
 
       <h2 className="text-3xl font-bold mt-12 mb-4">
-        Built for Etsy Sellers
+        Popular Etsy Product Categories
       </h2>
 
-      <p className="text-gray-400 mb-4">
-        ProductReady is designed for sellers who want fast, simple product photo
-        editing. You do not need design experience or advanced editing tools.
+      <p className="text-gray-400 mb-6">
+        ProductReady can be used for many types of Etsy products and handmade
+        businesses.
       </p>
 
-      <p className="text-gray-400">
-        Upload your product image, let AI remove the background, and download a
-        cleaner version for your shop.
-      </p>
+      <ul className="space-y-3 text-gray-400">
+        <li>✓ Jewelry and accessories</li>
+        <li>✓ Handmade crafts</li>
+        <li>✓ Candles and home decor</li>
+        <li>✓ Clothing and fashion items</li>
+        <li>✓ Art prints and digital products</li>
+        <li>✓ Vintage products and collectibles</li>
+      </ul>
 
       <h2 className="text-3xl font-bold mt-12 mb-4">
         How It Works
@@ -82,10 +86,27 @@ export default function Page() {
       <ol className="list-decimal pl-6 text-gray-400 space-y-2">
         <li>Upload your Etsy product photo</li>
         <li>Remove the background with AI</li>
-        <li>Choose transparent PNG or white background</li>
-        <li>Download your edited product image</li>
-        <li>Use it in your Etsy listing or marketing materials</li>
+        <li>Select transparent PNG or white background</li>
+        <li>Download your edited image</li>
+        <li>Use it in your Etsy listing</li>
       </ol>
+
+      <h2 className="text-3xl font-bold mt-12 mb-4">
+        Etsy Product Photography Tips
+      </h2>
+
+      <p className="text-gray-400 mb-6">
+        Consistent product photography helps create a stronger brand and a more
+        professional shopping experience.
+      </p>
+
+      <ul className="space-y-3 text-gray-400">
+        <li>✓ Use clear and sharp product photos</li>
+        <li>✓ Keep backgrounds simple and clean</li>
+        <li>✓ Use consistent lighting across listings</li>
+        <li>✓ Show product details and close-up shots</li>
+        <li>✓ Maintain a consistent visual style</li>
+      </ul>
 
       <h2 className="text-3xl font-bold mt-12 mb-4">
         Frequently Asked Questions
@@ -94,103 +115,47 @@ export default function Page() {
       <h3 className="text-xl font-semibold mt-8 mb-2">
         Can I use ProductReady for Etsy listings?
       </h3>
+
       <p className="text-gray-400">
-        Yes. ProductReady helps Etsy sellers create cleaner product images for
-        listings and shop visuals.
+        Yes. ProductReady helps Etsy sellers create cleaner and more
+        professional product images.
       </p>
 
       <h3 className="text-xl font-semibold mt-8 mb-2">
         Can I remove backgrounds from handmade product photos?
       </h3>
+
       <p className="text-gray-400">
-        Yes. You can upload product photos and remove distracting backgrounds
-        with AI.
+        Yes. AI background removal works well for handmade products, jewelry,
+        crafts, candles, and decorative items.
       </p>
 
       <h3 className="text-xl font-semibold mt-8 mb-2">
-        Can I download transparent PNG images?
+        Can I download transparent PNG files?
       </h3>
+
       <p className="text-gray-400">
         Yes. ProductReady supports transparent PNG downloads after background
         removal.
       </p>
 
       <h3 className="text-xl font-semibold mt-8 mb-2">
-        Is this useful for small Etsy shops?
+        Do I need design experience?
       </h3>
+
       <p className="text-gray-400">
-        Yes. ProductReady is useful for small shops that need simple, fast, and
-        professional-looking product images.
+        No. ProductReady is designed to be simple. Upload an image, process it
+        with AI, and download the result.
       </p>
 
-      <div className="mt-14 p-8 rounded-3xl border border-white/10 bg-white/5">
-        <h2 className="text-3xl font-bold mb-4">
-          Create Better Etsy Product Photos
-        </h2>
+      <h3 className="text-xl font-semibold mt-8 mb-2">
+        Is ProductReady useful for small Etsy shops?
+      </h3>
 
-        <p className="text-gray-400 mb-6">
-          Remove backgrounds, create transparent PNGs, and prepare cleaner
-          product images for your Etsy shop.
-        </p>
-
-        <a
-          href="/"
-          className="inline-block rounded-full bg-white text-black px-6 py-3 font-semibold"
-        >
-          Try ProductReady Free
-        </a>
-      </div>
-      <h2 className="text-3xl font-bold mt-12 mb-4">
-  Etsy Product Photography Tips
-</h2>
-
-<p className="text-gray-400 mb-4">
-  Etsy buyers often purchase handmade, vintage, and unique products. Clear and attractive product photos help build trust and improve conversion rates.
-</p>
-
-<p className="text-gray-400 mb-8">
-  Using clean backgrounds and consistent lighting can make Etsy listings look more professional and increase visibility.
-</p>
-
-<h2 className="text-3xl font-bold mt-12 mb-4">
-  Create Better Etsy Listing Images
-</h2>
-
-<p className="text-gray-400 mb-4">
-  ProductReady helps Etsy sellers remove distracting backgrounds and create clean product images suitable for handmade shops, jewelry listings, crafts, and home decor products.
-</p>
-
-<p className="text-gray-400 mb-8">
-  Upload your photo, process it with AI, and download a marketplace-ready version in seconds.
-</p>
-
-<h2 className="text-3xl font-bold mt-12 mb-4">
-  Frequently Asked Questions
-</h2>
-
-<h3 className="text-xl font-semibold mt-8 mb-2">
-  Can I use ProductReady for Etsy photos?
-</h3>
-
-<p className="text-gray-400">
-  Yes. ProductReady is designed to help Etsy sellers create cleaner and more professional product photos.
-</p>
-
-<h3 className="text-xl font-semibold mt-8 mb-2">
-  Can I remove backgrounds from handmade product photos?
-</h3>
-
-<p className="text-gray-400">
-  Yes. AI background removal works well for handmade items, jewelry, crafts, and decorative products.
-</p>
-
-<h3 className="text-xl font-semibold mt-8 mb-2">
-  Can I download transparent PNG files?
-</h3>
-
-<p className="text-gray-400">
-  Yes. Transparent PNG images can be downloaded after background removal.
-</p>
+      <p className="text-gray-400">
+        Yes. ProductReady is ideal for independent sellers who want better
+        product photos without learning complex editing software.
+      </p>
     </main>
   );
 }

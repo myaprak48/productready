@@ -89,7 +89,24 @@ export default function Page() {
         <li>Download your product image</li>
         <li>Use it in your Amazon listing or ecommerce store</li>
       </ol>
+<h2 className="text-3xl font-bold mt-12 mb-4">
+  Amazon Product Image Requirements
+</h2>
 
+<p className="text-gray-400 mb-6">
+  Amazon recommends high-quality product images that clearly show the product and help customers make purchasing decisions.
+</p>
+<p className="text-gray-400 mb-6">
+  Following Amazon image guidelines can improve product presentation, increase buyer trust, and help listings look more professional.
+</p>
+
+<ul className="space-y-3 text-gray-400">
+  <li>✓ Pure white background for main images</li>
+  <li>✓ Product fills most of the frame</li>
+  <li>✓ High-resolution images</li>
+  <li>✓ Clear and sharp product photos</li>
+  <li>✓ No logos, watermarks, or distracting elements</li>
+</ul>
       <h2 className="text-3xl font-bold mt-12 mb-4">
         Frequently Asked Questions
       </h2>
@@ -125,73 +142,38 @@ export default function Page() {
         No. ProductReady is designed to be simple. Upload an image, process it
         with AI, and download the result.
       </p>
-
-      <div className="mt-14 p-8 rounded-3xl border border-white/10 bg-white/5">
-        <h2 className="text-3xl font-bold mb-4">
-          Create Amazon-Ready Product Photos
-        </h2>
-
-        <p className="text-gray-400 mb-6">
-          Use ProductReady to remove backgrounds, create white background
-          images, and prepare cleaner product photos for your ecommerce store.
-        </p>
-
-        <a
-          href="/"
-          className="inline-block rounded-full bg-white text-black px-6 py-3 font-semibold"
-        >
-          Try ProductReady Free
-        </a>
-      </div>
-      <h2 className="text-3xl font-bold mt-12 mb-4">
-  Amazon Product Image Requirements
-</h2>
-
-<p className="text-gray-400 mb-4">
-  Amazon recommends high-quality product images that clearly show the item being sold. Clean backgrounds help customers focus on the product and create a more professional shopping experience.
-</p>
-
-<p className="text-gray-400">
-  Consistent product photography can improve trust and help create a stronger brand presence across your catalog.
-</p>
-<h2 className="text-3xl font-bold mt-12 mb-4">
-  Remove Backgrounds For Amazon Listings
-</h2>
-
-<p className="text-gray-400 mb-4">
-  ProductReady uses AI to automatically separate products from distracting backgrounds. Upload your image and create a cleaner Amazon-ready version in seconds.
-</p>
-
-<p className="text-gray-400">
-  No advanced photo editing skills are required. Simply upload, process, and download your image.
-</p>
-<h2 className="text-3xl font-bold mt-12 mb-4">
-  Frequently Asked Questions
-</h2>
-
 <h3 className="text-xl font-semibold mt-8 mb-2">
-  Can I create white background product photos?
+  Does Amazon require a white background?
 </h3>
 
 <p className="text-gray-400">
-  Yes. ProductReady can generate clean white background images suitable for ecommerce marketplaces.
+  Amazon recommends a pure white background for primary product images to maintain a consistent shopping experience.
 </p>
 
 <h3 className="text-xl font-semibold mt-8 mb-2">
-  Can I download transparent PNG files?
+  Can I use ProductReady for Amazon FBA products?
 </h3>
 
 <p className="text-gray-400">
-  Yes. Transparent PNG images can be exported after background removal.
+  Yes. ProductReady can help Amazon FBA sellers prepare cleaner product images for listings and product launches.
 </p>
 
 <h3 className="text-xl font-semibold mt-8 mb-2">
-  Is ProductReady useful for Amazon sellers?
+  Can ProductReady automatically remove backgrounds?
 </h3>
 
 <p className="text-gray-400">
-  Yes. ProductReady is designed to help sellers prepare cleaner and more professional product photos.
+  Yes. Upload your product image and ProductReady automatically removes the background using AI.
 </p>
+
+<h3 className="text-xl font-semibold mt-8 mb-2">
+  What image format can I download?
+</h3>
+
+<p className="text-gray-400">
+  ProductReady supports PNG downloads, including transparent background images.
+</p>
+
     </main>
   );
 }
