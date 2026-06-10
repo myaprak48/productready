@@ -1,3 +1,9 @@
+
+export const metadata = {
+  title: "AI Background Remover | ProductReady",
+  description:
+    "Remove image backgrounds automatically with AI. Create transparent PNG images and clean product photos for ecommerce sellers, Amazon, Shopify, Etsy, and online stores.",
+};
 export default function Page() {
   return (
     <main className="max-w-4xl mx-auto px-6 py-20">
