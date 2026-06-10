@@ -93,5 +93,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
   changeFrequency: "weekly",
   priority: 0.8,
 },
+{
+  url: "https://productreadyapp.com/ebay-product-photo-editor",
+  lastModified: new Date(),
+  changeFrequency: "weekly",
+  priority: 0.8,
+},
+
+{
+  url: "https://productreadyapp.com/free-background-remover",
+  lastModified: new Date(),
+  changeFrequency: "weekly",
+  priority: 0.8,
+},
+
+{
+  url: "https://productreadyapp.com/remove-background-online",
+  lastModified: new Date(),
+  changeFrequency: "weekly",
+  priority: 0.8,
+},
   ];
 }
