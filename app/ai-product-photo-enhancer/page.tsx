@@ -1,7 +1,7 @@
 export const metadata = {
   title: "AI Product Photo Enhancer | ProductReady",
   description:
-    "Enhance product photos with AI. Improve ecommerce product images, create cleaner visuals, and prepare professional photos for online stores.",
+    "Enhance product photos with AI. Improve ecommerce images, remove backgrounds, create white background photos, and prepare marketplace-ready product visuals.",
 };
 
 export default function Page() {
@@ -12,212 +12,318 @@ export default function Page() {
       </h1>
 
       <p className="text-xl text-gray-400 mb-8">
-        Enhance product photos with AI and create cleaner, more professional
-        ecommerce images. ProductReady helps online sellers improve product
-        presentation, prepare marketplace-ready visuals, and create consistent
-        product photos for stores, catalogs, and listings.
+        ProductReady helps ecommerce sellers enhance product photos with AI.
+        Remove distracting backgrounds, create clean white background images,
+        improve product presentation, and prepare professional visuals for
+        Amazon, Etsy, Shopify, eBay, and online stores.
       </p>
 
-      <h2 className="text-3xl font-bold mt-12 mb-4">
-        Improve Product Photos for Online Selling
+      <h2 className="text-3xl font-semibold mb-4">
+        Enhance Product Photos with AI
       </h2>
 
-      <p className="text-gray-400 mb-4">
-        Product photos are one of the most important parts of an ecommerce
-        listing. Customers often decide whether to click, trust, or buy based on
-        the quality of the product image.
+      <p className="text-gray-400 mb-6">
+        Product images are one of the most important parts of online selling.
+        Customers often judge product quality, trust, and value based on the
+        photos they see before reading descriptions or reviews.
       </p>
 
-      <p className="text-gray-400 mb-4">
-        A clean, professional product image can make your store look more
-        reliable and help shoppers understand the product faster.
+      <p className="text-gray-400 mb-6">
+        An AI product photo enhancer helps sellers turn ordinary images into
+        cleaner, more professional ecommerce visuals without complex editing
+        software or manual design work.
       </p>
 
-      <p className="text-gray-400">
-        ProductReady is designed for ecommerce sellers who want better product
-        images without spending hours using complex editing software.
-      </p>
-
-      <h2 className="text-3xl font-bold mt-12 mb-4">
-        What Does an AI Product Photo Enhancer Do?
+      <h2 className="text-3xl font-semibold mb-4">
+        What Is an AI Product Photo Enhancer?
       </h2>
 
-      <p className="text-gray-400 mb-4">
-        An AI product photo enhancer helps improve the overall quality and
-        presentation of product images. It can help clean up the visual style,
-        prepare images for marketplaces, and make product photos look more
-        polished.
+      <p className="text-gray-400 mb-6">
+        An AI product photo enhancer is a tool that improves product images
+        using artificial intelligence. It can help clean up photos, remove
+        backgrounds, create white background images, and prepare visuals that
+        look ready for online marketplaces.
       </p>
 
-      <ul className="list-disc pl-6 text-gray-400 space-y-2">
-        <li>Create cleaner ecommerce product images</li>
-        <li>Improve product photo presentation</li>
-        <li>Prepare consistent visuals for online stores</li>
-        <li>Create white background product photos</li>
-        <li>Generate transparent PNG product images</li>
-        <li>Make catalog images look more professional</li>
-        <li>Prepare product visuals for ads and social media</li>
+      <p className="text-gray-400 mb-6">
+        ProductReady focuses on the most practical ecommerce image tasks:
+        background removal, white background creation, transparent image
+        exports, and marketplace-ready product presentation.
+      </p>
+
+      <h2 className="text-3xl font-semibold mb-4">
+        Why Product Photo Enhancement Matters
+      </h2>
+
+      <p className="text-gray-400 mb-6">
+        Better product photos help customers understand what they are buying.
+        Clean images can show product shape, color, material, packaging, and
+        important details more clearly.
+      </p>
+
+      <p className="text-gray-400 mb-6">
+        Poor lighting, messy backgrounds, or inconsistent visuals can make a
+        listing feel less professional. AI enhancement helps sellers improve
+        image presentation faster.
+      </p>
+
+      <h2 className="text-3xl font-semibold mb-4">
+        Remove Backgrounds Automatically
+      </h2>
+
+      <p className="text-gray-400 mb-6">
+        Background removal is one of the most common ecommerce editing tasks.
+        A distracting background can pull attention away from the product and
+        make an image feel less polished.
+      </p>
+
+      <p className="text-gray-400 mb-6">
+        ProductReady helps remove product backgrounds automatically so sellers
+        can create cleaner product images in seconds.
+      </p>
+
+      <h2 className="text-3xl font-semibold mb-4">
+        Create White Background Product Images
+      </h2>
+
+      <p className="text-gray-400 mb-6">
+        White background images are widely used on ecommerce platforms because
+        they keep the product as the main focus. They help create a clean,
+        consistent, and professional product catalog.
+      </p>
+
+      <p className="text-gray-400 mb-6">
+        ProductReady helps create white background product photos for Amazon,
+        Shopify, Etsy, eBay, and other online selling channels.
+      </p>
+
+      <h2 className="text-3xl font-semibold mb-4">
+        Transparent PNG Product Images
+      </h2>
+
+      <p className="text-gray-400 mb-6">
+        Transparent PNG images give sellers more flexibility. They can be used
+        in social media graphics, banners, ads, landing pages, product catalogs,
+        and custom designs.
+      </p>
+
+      <p className="text-gray-400 mb-6">
+        AI background removal makes it easier to create transparent product
+        images without manually cutting out each product.
+      </p>
+
+      <h2 className="text-3xl font-semibold mb-4">
+        Improve Ecommerce Catalog Consistency
+      </h2>
+
+      <p className="text-gray-400 mb-6">
+        A consistent product catalog helps stores look more organized and
+        trustworthy. When product images use similar backgrounds, framing, and
+        presentation, the entire store feels more professional.
+      </p>
+
+      <p className="text-gray-400 mb-6">
+        ProductReady helps sellers create a more consistent image workflow by
+        simplifying background removal and clean image creation.
+      </p>
+
+      <h2 className="text-3xl font-semibold mb-4">
+        Common Product Photo Problems
+      </h2>
+
+      <ul className="list-disc pl-6 text-gray-400 mb-8 space-y-2">
+        <li>Distracting backgrounds</li>
+        <li>Poor lighting or shadows</li>
+        <li>Inconsistent catalog images</li>
+        <li>Images that do not look marketplace-ready</li>
+        <li>Low-quality product presentation</li>
+        <li>Time-consuming manual editing</li>
       </ul>
 
-      <h2 className="text-3xl font-bold mt-12 mb-4">
-        Built for Ecommerce Product Images
+      <h2 className="text-3xl font-semibold mb-4">
+        Built for Ecommerce Sellers
       </h2>
 
-      <p className="text-gray-400 mb-4">
-        ProductReady is especially useful for sellers who need fast and clean
-        product images for ecommerce. Instead of editing each image manually,
-        sellers can quickly prepare visuals that look ready for online use.
-      </p>
-
-      <p className="text-gray-400">
-        Whether you sell fashion items, accessories, electronics, handmade
-        products, home goods, or beauty products, stronger product photos can
-        help improve the shopping experience.
-      </p>
-
-      <h2 className="text-3xl font-bold mt-12 mb-4">
-        Product Photo Enhancement for Marketplaces
-      </h2>
-
-      <p className="text-gray-400 mb-4">
-        Online marketplaces are highly visual. Buyers compare products quickly,
-        and poor images can make even a good product look less trustworthy.
-      </p>
-
-      <p className="text-gray-400">
-        ProductReady helps sellers create cleaner product visuals for Amazon,
-        Etsy, Shopify, eBay, and other ecommerce platforms without needing
-        professional design experience.
-      </p>
-
-      <h2 className="text-3xl font-bold mt-12 mb-4">
-        Why Better Product Photos Matter
-      </h2>
-
-      <p className="text-gray-400 mb-4">
-        High-quality product photos help create a better first impression. They
-        can make your products look more professional, improve brand perception,
-        and help customers feel more confident before buying.
-      </p>
-
-      <ul className="list-disc pl-6 text-gray-400 space-y-2">
-        <li>Cleaner product presentation</li>
-        <li>More consistent store visuals</li>
-        <li>Better first impression for shoppers</li>
-        <li>More professional marketplace listings</li>
-        <li>Faster image preparation workflow</li>
-        <li>Less need for manual editing tools</li>
+      <ul className="list-disc pl-6 text-gray-400 mb-8 space-y-2">
+        <li>Amazon sellers</li>
+        <li>Shopify store owners</li>
+        <li>Etsy sellers</li>
+        <li>eBay sellers</li>
+        <li>Dropshipping brands</li>
+        <li>Private label businesses</li>
+        <li>Marketplace agencies</li>
+        <li>Small online stores</li>
       </ul>
 
-      <h2 className="text-3xl font-bold mt-12 mb-4">
-        How ProductReady Works
+      <h2 className="text-3xl font-semibold mb-4">
+        Enhance Photos for Amazon, Etsy, and Shopify
       </h2>
 
-      <ol className="list-decimal pl-6 text-gray-400 space-y-2">
-        <li>Upload your product photo.</li>
-        <li>ProductReady processes the image with AI.</li>
-        <li>Create a cleaner product visual.</li>
-        <li>Choose a transparent or white background output.</li>
-        <li>Download your enhanced product image.</li>
-      </ol>
-
-      <h2 className="text-3xl font-bold mt-12 mb-4">
-        Use Cases for AI Product Photo Enhancement
-      </h2>
-
-      <p className="text-gray-400 mb-4">
-        ProductReady can be used for many types of ecommerce visuals. It is not
-        only for removing backgrounds, but also for preparing cleaner and more
-        consistent product images across different sales channels.
+      <p className="text-gray-400 mb-6">
+        Different platforms may have different image expectations, but clean
+        product presentation matters everywhere. Amazon sellers often need
+        white background images, Etsy sellers need polished listing photos, and
+        Shopify stores need consistent catalog visuals.
       </p>
 
-      <ul className="list-disc pl-6 text-gray-400 space-y-2">
-        <li>Product listing images</li>
-        <li>Online store collections</li>
-        <li>Marketplace catalog photos</li>
-        <li>Social media product posts</li>
-        <li>Advertising creatives</li>
-        <li>Brand product pages</li>
-        <li>Transparent PNG product assets</li>
-        <li>White background ecommerce photos</li>
-      </ul>
+      <p className="text-gray-400 mb-6">
+        ProductReady helps create product images that can be reused across
+        multiple ecommerce channels.
+      </p>
 
-      <h2 className="text-3xl font-bold mt-12 mb-4">
+      <h2 className="text-3xl font-semibold mb-4">
+        Save Time with AI Product Editing
+      </h2>
+
+      <p className="text-gray-400 mb-6">
+        Manual product image editing can take a long time, especially when
+        working with multiple products. AI tools help automate repetitive tasks
+        and speed up image preparation.
+      </p>
+
+      <p className="text-gray-400 mb-6">
+        Instead of spending hours editing photos, sellers can use ProductReady
+        to prepare cleaner ecommerce visuals faster.
+      </p>
+
+      <h2 className="text-3xl font-semibold mb-4">
+        How ProductReady Helps
+      </h2>
+
+      <p className="text-gray-400 mb-6">
+        ProductReady helps ecommerce sellers enhance product photos with a
+        simple workflow. Upload a product photo, remove the background, create
+        a cleaner result, and download a marketplace-ready image.
+      </p>
+
+      <ul className="list-disc pl-6 text-gray-400 mb-8 space-y-2">
+        <li>Upload your product photo</li>
+        <li>Remove distracting backgrounds</li>
+        <li>Create white background images</li>
+        <li>Generate transparent PNG exports</li>
+        <li>Prepare professional ecommerce visuals</li>
+      </ul>
+<h2 className="text-3xl font-semibold mb-4">
+AI Photo Enhancement for Amazon Listings
+</h2>
+
+<p className="text-gray-400 mb-6">
+Amazon shoppers often compare multiple products before making a purchase.
+Higher-quality product images can improve presentation, increase trust, and
+help products stand out in competitive categories. AI photo enhancement helps
+sellers improve image quality without spending hours editing every photo.
+</p>
+
+<h2 className="text-3xl font-semibold mb-4">
+AI Photo Enhancement for Etsy Sellers
+</h2>
+
+<p className="text-gray-400 mb-6">
+Etsy sellers rely heavily on visual presentation. Handmade products,
+accessories, artwork, candles, jewelry, and home decor items all benefit from
+cleaner product photography. AI enhancement tools help sellers create more
+consistent and professional listings.
+</p>
+
+<h2 className="text-3xl font-semibold mb-4">
+AI Photo Enhancement for Shopify Stores
+</h2>
+
+<p className="text-gray-400 mb-6">
+Shopify merchants often manage large product catalogs. Consistent product
+images create a stronger storefront appearance and help improve customer trust.
+AI-powered enhancement tools make catalog preparation faster and easier.
+</p>
+
+<h2 className="text-3xl font-semibold mb-4">
+Improve Product Image Quality
+</h2>
+
+<p className="text-gray-400 mb-6">
+Many product photos suffer from poor lighting, low contrast, weak colors, or
+background distractions. Improving image quality helps customers inspect
+products more easily and creates a more professional online shopping experience.
+</p>
+
+<h2 className="text-3xl font-semibold mb-4">
+Create Consistent Product Catalogs
+</h2>
+
+<p className="text-gray-400 mb-6">
+Consistency across product images is important for ecommerce brands. Similar
+backgrounds, image framing, lighting, and presentation styles help create a
+more organized catalog and stronger brand identity.
+</p>
+
+<h2 className="text-3xl font-semibold mb-4">
+Why Ecommerce Brands Use AI Image Enhancement
+</h2>
+
+<p className="text-gray-400 mb-6">
+AI image enhancement helps businesses save time, reduce editing costs, and
+prepare marketplace-ready product images faster. Instead of relying on manual
+editing workflows, sellers can create professional visuals with fewer steps.
+</p>
+      <h2 className="text-3xl font-semibold mb-4">
         Frequently Asked Questions
       </h2>
 
-      <h3 className="text-xl font-semibold mt-8 mb-2">
+      <h3 className="text-xl font-semibold mb-2">
+        What is an AI product photo enhancer?
+      </h3>
+
+      <p className="text-gray-400 mb-6">
+        An AI product photo enhancer improves product images using artificial
+        intelligence and helps prepare cleaner ecommerce visuals.
+      </p>
+
+      <h3 className="text-xl font-semibold mb-2">
         Can AI enhance product photos?
       </h3>
 
-      <p className="text-gray-400">
-        Yes. AI can help create cleaner, more professional product images by
-        improving presentation and preparing visuals for ecommerce use.
+      <p className="text-gray-400 mb-6">
+        Yes. AI can help remove backgrounds, create white background images,
+        and improve product presentation for online stores.
       </p>
 
-      <h3 className="text-xl font-semibold mt-8 mb-2">
-        Is ProductReady only a background remover?
+      <h3 className="text-xl font-semibold mb-2">
+        Do I need Photoshop?
       </h3>
 
-      <p className="text-gray-400">
-        No. Background removal is one part of the workflow, but ProductReady is
-        focused on helping sellers prepare cleaner and more professional product
-        photos for online selling.
+      <p className="text-gray-400 mb-6">
+        No. ProductReady helps sellers enhance product photos without learning
+        complex editing software.
       </p>
 
-      <h3 className="text-xl font-semibold mt-8 mb-2">
-        Is this useful for ecommerce sellers?
+      <h3 className="text-xl font-semibold mb-2">
+        Can ProductReady create white background images?
       </h3>
 
-      <p className="text-gray-400">
-        Yes. ProductReady is designed for ecommerce sellers, marketplace
-        vendors, Shopify store owners, Etsy sellers, and product-based brands.
+      <p className="text-gray-400 mb-6">
+        Yes. ProductReady helps remove backgrounds and create clean white
+        background product photos.
       </p>
 
-      <h3 className="text-xl font-semibold mt-8 mb-2">
-        Can I create white background product photos?
+      <h3 className="text-xl font-semibold mb-2">
+        Who should use ProductReady?
       </h3>
 
-      <p className="text-gray-400">
-        Yes. ProductReady can help create clean white background images for
-        ecommerce listings and product catalogs.
+      <p className="text-gray-400 mb-6">
+        ProductReady is useful for Amazon sellers, Shopify stores, Etsy shops,
+        ecommerce brands, agencies, and online sellers who need cleaner product
+        images.
       </p>
 
-      <h3 className="text-xl font-semibold mt-8 mb-2">
-        Can I create transparent PNG product images?
-      </h3>
+      <h2 className="text-3xl font-semibold mb-4">
+        Enhance Product Photos with ProductReady
+      </h2>
 
       <p className="text-gray-400">
-        Yes. Transparent PNG product images are useful for websites, ads, social
-        media graphics, and design assets.
+        ProductReady helps ecommerce sellers create cleaner, more professional
+        product photos in seconds. Upload your image, remove the background,
+        create a clean result, and prepare marketplace-ready visuals for
+        Amazon, Etsy, Shopify, eBay, and more.
       </p>
-
-      <h3 className="text-xl font-semibold mt-8 mb-2">
-        Do I need photo editing experience?
-      </h3>
-
-      <p className="text-gray-400">
-        No. ProductReady is made for sellers who want a simple and fast way to
-        prepare better product photos without advanced editing skills.
-      </p>
-
-      <div className="mt-14 p-8 rounded-3xl border border-white/10 bg-white/5">
-        <h2 className="text-3xl font-bold mb-4">
-          Enhance Product Photos With AI
-        </h2>
-
-        <p className="text-gray-400 mb-6">
-          Create cleaner ecommerce images and prepare professional product
-          photos for online stores, marketplaces, catalogs, and ads.
-        </p>
-
-        <a
-          href="/"
-          className="inline-block rounded-full bg-white text-black px-6 py-3 font-semibold"
-        >
-          Try ProductReady Free
-        </a>
-      </div>
     </main>
   );
 }
