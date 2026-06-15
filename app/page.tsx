@@ -7,6 +7,8 @@ export default function Home() {
   const [preview, setPreview] = useState<string | null>(null);
   const [result, setResult] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
+  const [upscaledResult, setUpscaledResult] = useState<string | null>(null);
+const [upscaleLoading, setUpscaleLoading] = useState(false);
   const [sliderPosition, setSliderPosition] = useState(50);
 
   const handleImageUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -16,6 +18,7 @@ export default function Home() {
       setImage(file);
       setPreview(URL.createObjectURL(file));
       setResult(null);
+      setUpscaledResult(null);
     }
   };
 
@@ -75,6 +78,48 @@ export default function Home() {
       setLoading(false);
     }
   };
+  const upscaleImage = async () => {
+  if (!image) return;
+
+  setUpscaleLoading(true);
+
+  const formData = new FormData();
+  formData.append("image", image);
+
+  try {
+    const response = await fetch("/api/upscale", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.upscaledUrl) {
+      setUpscaledResult(data.upscaledUrl);
+    }
+  } catch (error) {
+    console.error(error);
+  } finally {
+    setUpscaleLoading(false);
+  }
+};
+const downloadHD = async () => {
+  if (!upscaledResult) return;
+
+  const response = await fetch(upscaledResult);
+  const blob = await response.blob();
+
+  const url = window.URL.createObjectURL(blob);
+
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "productready-upscaled.png";
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+
+  window.URL.revokeObjectURL(url);
+};
 const downloadWhiteBackground = () => {
   if (!result) return;
 
@@ -217,7 +262,33 @@ Turn ordinary product photos into clean, professional images ready for Amazon, E
           >
             {loading ? "Removing Background..." : "Remove Background"}
           </button>
+<button
+  onClick={upscaleImage}
+  disabled={!image || upscaleLoading}
+  className="mt-4 w-full border border-white/20 px-6 py-4 rounded-2xl font-semibold"
+>
+  {upscaleLoading ? "Upscaling..." : "AI Upscale HD"}
+</button>
+{upscaledResult && (
+  <div className="mt-8">
+    <p className="text-green-400 text-center text-lg font-semibold mb-4">
+      AI Upscale Completed Successfully ✓
+    </p>
 
+    <img
+      src={upscaledResult}
+      alt="AI Upscaled Product"
+      className="rounded-3xl w-full border border-white/10"
+    />
+
+    <button
+  onClick={downloadHD}
+  className="block w-full mt-6 text-center bg-white text-black px-6 py-4 rounded-2xl font-semibold"
+>
+  Download AI Upscaled Image
+</button>
+  </div>
+)}
           {result && preview && (
             <>
             <p className="text-green-400 text-center text-lg font-semibold mb-6">
