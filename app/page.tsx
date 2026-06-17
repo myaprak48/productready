@@ -429,6 +429,29 @@ backgroundColor: "#ffffff",
             </p>
           </div>
 </div>
+<div className="rounded-3xl border border-white/10 bg-zinc-950 p-8 mt-6 mb-10">
+  <p className="text-sm text-gray-500 mb-3">
+    AI Powered
+  </p>
+
+  <h2 className="text-4xl font-bold mb-4 text-white">
+    AI Upscale HD
+  </h2>
+
+  <p className="text-gray-400 mb-6">
+    Increase image resolution with AI and create sharper,
+    cleaner, high-resolution product photos for Amazon,
+    Etsy, Shopify and eBay listings.
+  </p>
+
+  <div className="inline-flex rounded-xl bg-white text-black px-5 py-3 font-semibold">
+  AI Powered HD Upscaling
+</div>
+
+<p className="text-green-400 mt-4 font-semibold">
+ ✓ Up To 4X Resolution Enhancement
+</p>
+  </div>
 
         <div className="grid md:grid-cols-2 gap-6">
           <div className="rounded-3xl border border-white/10 bg-zinc-950 p-6">
