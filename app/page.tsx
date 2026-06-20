@@ -355,58 +355,65 @@ backgroundColor: "#ffffff",
       </section>
 
       <section id="examples" className="px-6 pb-24 max-w-7xl mx-auto">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4">
-  See ProductReady in Action
-</h2>
-         <p className="text-gray-400 max-w-3xl mx-auto">
-  See how ProductReady transforms everyday product photos into professional marketplace-ready images.
-</p>
-        </div>
-<div className="max-w-6xl mx-auto">
-  <div className="grid md:grid-cols-2 gap-8">
+  <div className="text-center mb-12">
+    <h2 className="text-4xl font-bold mb-4">
+      See ProductReady in Action
+    </h2>
 
-    <div className="rounded-3xl border border-white/10 bg-zinc-950 p-6">
-      <img
-        src="/demo-before.jpg"
-        alt="Before"
-        className="rounded-2xl w-full"
-      />
-
-      <div className="text-center mt-5">
-        <p className="text-2xl font-bold text-white">
-          Before
-        </p>
-
-        <p className="text-gray-400">
-          Original Product Photo
-        </p>
-      </div>
-    </div>
-
-    <div className="rounded-3xl border border-white/10 bg-zinc-950 p-6">
-      <img
-        src="/demo-after.jpg"
-        alt="After"
-        className="rounded-2xl w-full"
-      />
-
-      <div className="text-center mt-5">
-        <p className="text-2xl font-bold text-white">
-          After
-        </p>
-
-        <p className="text-gray-400">
-          Marketplace Ready Result
-        </p>
-      </div>
-    </div>
-
+    <p className="text-gray-400 max-w-3xl mx-auto">
+      See how ProductReady transforms everyday product photos into professional marketplace-ready images.
+    </p>
   </div>
-</div>
 
-      </section>
+  <div className="grid lg:grid-cols-2 gap-10">
+    {[
+      ["Watch", "/watch-before.jpg", "/watch-after.png"],
+      ["Headphones", "/headphones-before.jpg", "/headphones-after.png"],
+      ["Shoes", "/shoes-before.jpg", "/shoes-after.png"],
+      ["Cosmetics", "/cosmetics-before.jpg", "/cosmetics-after.png"],
+      ["Mug", "/home-before.jpg", "/home-after.png"],
+      ["Perfume", "/perfume-before.jpg", "/perfume-after.png"],
+    ].map(([title, before, after]) => (
+      <div
+        key={title}
+        className="rounded-3xl border border-white/10 bg-zinc-950 p-6"
+      >
+        <h3 className="text-2xl font-bold text-white mb-6 text-center">
+          {title}
+        </h3>
 
+        <div className="grid md:grid-cols-2 gap-5">
+          <div>
+            <img
+              src={before}
+              alt={`${title} before ProductReady editing`}
+              className="rounded-2xl w-full h-72 object-cover"
+            />
+
+            <div className="text-center mt-4">
+              <p className="text-xl font-bold text-white">Before</p>
+              <p className="text-gray-400 text-sm">Original product photo</p>
+            </div>
+          </div>
+
+          <div>
+            <img
+              src={after}
+              alt={`${title} after ProductReady background removal`}
+              className="rounded-2xl w-full h-72 object-contain bg-white"
+            />
+
+            <div className="text-center mt-4">
+              <p className="text-xl font-bold text-white">After</p>
+              <p className="text-gray-400 text-sm">Marketplace-ready result</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+    
       <section id="solutions" className="px-6 pb-24 max-w-7xl mx-auto">
         <div className="text-center mb-12">
   <h2 className="text-4xl font-bold mb-4">
