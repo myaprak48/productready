@@ -63,6 +63,16 @@ const routes = [
   "transparent-background-maker",
   "white-background-generator",
   "white-background-image",
+  "woocommerce-background-remover",
+"woocommerce-image-editor",
+"woocommerce-image-optimizer",
+"woocommerce-product-image-editor",
+"woocommerce-product-image-resizer",
+"woocommerce-product-images",
+"woocommerce-product-photo-editor",
+"woocommerce-product-photo-enhancer",
+"woocommerce-transparent-background-maker",
+"woocommerce-white-background-tool",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
