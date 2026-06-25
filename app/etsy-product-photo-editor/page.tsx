@@ -6,7 +6,8 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <main className="max-w-4xl mx-auto px-6 py-20">
+    <main className="min-h-screen bg-black text-white">
+  <div className="max-w-4xl mx-auto px-6 py-20">
       <h1 className="text-5xl font-bold mb-8">
         Etsy Product Photo Editor
       </h1>
@@ -156,6 +157,7 @@ export default function Page() {
         Yes. ProductReady is ideal for independent sellers who want better
         product photos without learning complex editing software.
       </p>
+      </div>
     </main>
   );
 }

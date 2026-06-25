@@ -624,36 +624,54 @@ backgroundColor: "#ffffff",
     </p>
   </div>
 
-  <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+  {[
+    {
+      title: "Amazon",
+      href: "/amazon-product-photo-editor",
+      text: "Optimize Amazon listing images with AI.",
+    },
+    {
+      title: "Etsy",
+      href: "/etsy-product-photo-editor",
+      text: "Create professional Etsy product photos.",
+    },
+    {
+      title: "Shopify",
+      href: "/shopify-product-photo-editor",
+      text: "Prepare product images for Shopify stores.",
+    },
+    {
+      title: "eBay",
+      href: "/ebay-product-photo-editor",
+      text: "Optimize listing photos for eBay sellers.",
+    },
+    {
+      title: "WooCommerce",
+      href: "/woocommerce-product-photo-editor",
+      text: "Create optimized product images for WooCommerce stores.",
+    },
+    {
+      title: "Walmart",
+      href: "/walmart-product-photo-editor",
+      text: "Prepare marketplace-ready images for Walmart listings.",
+    },
+  ].map((item) => (
     <a
-  href="/amazon-product-photo-editor"
-  className="rounded-2xl border border-white/10 bg-zinc-950 p-6 text-center hover:border-white/30 transition"
->
-  Amazon
-</a>
+      key={item.href}
+      href={item.href}
+      className="group rounded-2xl border border-white/10 bg-zinc-950 p-6 min-h-[170px] flex flex-col justify-between text-left hover:border-white/30 hover:bg-zinc-900 transition-all duration-300"
+    >
+      <div>
+        <h3 className="text-xl font-semibold mb-3">{item.title}</h3>
+        <p className="text-gray-400 text-sm">{item.text}</p>
+      </div>
 
-    <a
-  href="/etsy-product-photo-editor"
-  className="rounded-2xl border border-white/10 bg-zinc-950 p-6 text-center hover:border-white/30 transition"
->
-  Etsy
-</a>
-
-    <a
-  href="/shopify-product-photo-editor"
-  className="rounded-2xl border border-white/10 bg-zinc-950 p-6 text-center hover:border-white/30 transition"
->
-  Shopify
-</a>
-
-    <a
-  href="/free-background-remover"
-  className="rounded-2xl border border-white/10 bg-zinc-950 p-6 text-center hover:border-white/30 transition"
->
-  eBay
-</a>
-
+      <span className="mt-6 text-sm text-gray-300 group-hover:text-white">
+        Open tool →
+      </span>
+    </a>
+  ))}
   </div>
 
 </section>

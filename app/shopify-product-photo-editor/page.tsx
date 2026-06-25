@@ -6,7 +6,8 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <main className="max-w-4xl mx-auto px-6 py-20">
+    <main className="min-h-screen bg-black text-white">
+  <div className="max-w-4xl mx-auto px-6 py-20">
       <h1 className="text-5xl font-bold mb-8">
         Shopify Product Photo Editor
       </h1>
@@ -157,6 +158,7 @@ export default function Page() {
         electronics, beauty products, home goods, accessories, and many other
         ecommerce categories.
       </p>
+      </div>
     </main>
   );
 }
