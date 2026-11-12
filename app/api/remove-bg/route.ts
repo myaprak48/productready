@@ -1,5 +1,12 @@
 export async function POST(req: Request) {
   try {
+        if (!process.env.REMOVE_BG_API_KEY) {
+      console.error("REMOVE_BG_API_KEY bulunamadı!");
+      return Response.json(
+        { error: "API anahtarı bulunamadı" },
+        { status: 500 }
+      );
+    }
     const formData = await req.formData();
 
     const image = formData.get("image") as File;
@@ -13,14 +20,14 @@ export async function POST(req: Request) {
       {
         method: "POST",
         headers: {
-          "X-Api-Key":
-            "QRWMLefX1Nub6bf79RjQw76b" ,
+          "X-Api-Key": process.env.REMOVE_BG_API_KEY!,
         },
         body: removeBgFormData,
       }
     );
 if (!response.ok) {
   const errorText = await response.text();
+  console.error("REMOVE.BG API YANITI:", errorText);
 
   return Response.json(
     { error: errorText },
@@ -34,10 +41,11 @@ if (!response.ok) {
         "Content-Type": "image/png",
       },
     });
-  } catch (error) {
+} catch (error) {
+    console.error("REMOVE BG SUNUCU HATASI:", error);
+
     return Response.json(
       { error: "Background removal failed" },
       { status: 500 }
     );
   }
-}
