@@ -41,7 +41,7 @@ if (!response.ok) {
         "Content-Type": "image/png",
       },
     });
-} catch (error) {
+  } catch (error) {
     console.error("REMOVE BG SUNUCU HATASI:", error);
 
     return Response.json(
@@ -49,3 +49,4 @@ if (!response.ok) {
       { status: 500 }
     );
   }
+}
