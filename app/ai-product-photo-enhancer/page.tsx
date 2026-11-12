@@ -1,8 +1,13 @@
+
 export const metadata = {
   title: "AI Product Photo Enhancer | ProductReady",
   description:
-    "Enhance product photos with AI. Improve ecommerce images, remove backgrounds, create white background photos, and prepare marketplace-ready product visuals.",
+    "Enhance product photos with AI. Improve ecommerce images, remove backgrounds and create professional product visuals.",
+  alternates: {
+    canonical: "https://productreadyapp.com/ai-product-photo-enhancer",
+  },
 };
+
 
 export default function Page() {
   return (
